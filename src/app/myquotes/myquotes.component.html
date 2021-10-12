@@ -1,17 +1,17 @@
 <div class="container">
     <div class="scores">
-        <div>3</div>
+        <div>{{articles.votes}}</div>
         <div>Points</div>
     </div>
     
     <div class="qouts">
         <div>
-            <a href="">Shawn</a>
-            <div>"We are not makers of history. We are made by history."</div>
+            <a href="{{articles.quote}}">{{articles.title}}</a>
+            <div>{{articles.quote}}</div>
         </div>
         <div class="votes">
-             <button>UPvote</button>
-             <button>Downvote</button> 
+             <button (click) = "vote_up">UPvote</button>
+             <button (click) = "vote_down">Downvote</button> 
         </div>
     </div>
 </div>

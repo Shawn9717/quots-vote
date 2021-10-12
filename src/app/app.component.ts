@@ -14,8 +14,12 @@ export class AppComponent {
         new Myquotes("Shawn","We are not makers of history. We are made by history.", 3),
         new Myquotes("Kamilla","No pain no gain", 2),
         new Myquotes("Shantel","Only God can judge you", 3),
-        new Myquotes("Derick","No man is an inland no man stands alone", 3),
       ]
   }
+  add_artical(title:HTMLInputElement , quote:HTMLInputElement){
+    this.articles.push(new Myquotes(title.value ,quote.value))
+    title.value = ''
+    quote.value = ''
+    }
+    }
 
-}

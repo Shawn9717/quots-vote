@@ -15,5 +15,5 @@
   <app-add></app-add>
 </div>
 <div>
-<app-myquotes *ngFor = "let Myquotes of  articles"></app-myquotes>
+<app-myquotes *ngFor = "let Myquotes of  articles"[articles]="Myquotes"></app-myquotes>
 </div>
