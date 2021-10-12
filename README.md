@@ -5,7 +5,7 @@
 This applicatin contains quotes that mortivate people and enables other people to add their quotes also and people also vote apon them. 
 ## Setup/Installation Requirements
 * this is a greet application
-* I`ts free for accessing and using
+* I`ts free for accessing and using.
 * in a simple
 * easy-to-understand
 * format
