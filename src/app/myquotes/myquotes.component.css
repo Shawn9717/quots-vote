@@ -1,0 +1,29 @@
+.container{
+    width: 18rem;
+    display:flex ;
+    margin: 0 auto;
+}
+.scores{
+    display: flex;
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.8;
+    background-color: royalblue;
+    aspect-ratio: 1/0.7;
+}
+.qouts{
+    flex: 1;
+    margin:0.5rem ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+.votes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}

@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <app-about></app-about>
+    </div>
+    <div class="col-md-7">
+      <app-portfolio></app-portfolio>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <app-add></app-add>
+</div>
+<div>
+<app-myquotes *ngFor = "let Myquotes of  articles"></app-myquotes>
+</div>
